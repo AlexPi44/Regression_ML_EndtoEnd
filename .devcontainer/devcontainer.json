@@ -1,0 +1,16 @@
+{
+  "name": "Python 3.11 Codespace",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.11",
+      "pip": true
+    }
+  },
+  "postCreateCommand": "python3 --version && python3 -m venv .venv && . .venv/bin/activate && pip install -U pip setuptools wheel",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python"]
+    }
+  }
+}
