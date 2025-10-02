@@ -13,7 +13,7 @@ from src.inference_pipeline.inference import predict
 # ----------------------------
 # Config
 # ----------------------------
-S3_BUCKET = os.getenv("S3_BUCKET", "housing-regression-data")
+S3_BUCKET = os.getenv("S3_BUCKET", "housing-regression-mlmodel")
 REGION = os.getenv("AWS_REGION", "eu-west-2")
 s3 = boto3.client("s3", region_name=REGION)
 
