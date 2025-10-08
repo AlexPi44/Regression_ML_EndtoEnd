@@ -1,4 +1,4 @@
-## Quick Gradio Demo can be found on HuggingFace at: https://agalexiul-housing-regression-ui.hf.space/
+## Direct testing with a quick Gradio Demo can be found on HuggingFace at: https://agalexiul-housing-regression-ui.hf.space/
 
 ## Housing ML end2end Project
 
